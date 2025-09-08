@@ -170,7 +170,7 @@ const config: SiteConfig = {
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // If you don't want to use Giscus, set this to undefined.
   giscus: {
-    repo: 'joshtune/joshtune.github.io',
+    repo: 'joshtune/joshtune-church-notes.github.io',
     repoId: 'MDEwOlJlcG9zaXRvcnkzMTY1NzU0OTI=',
     category: 'Announcements',
     categoryId: 'DIC_kwDOEt6PBM4CumHs',

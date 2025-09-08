@@ -1,1 +1,1 @@
-# Josh Tune
+# Josh Tune Church Notes
