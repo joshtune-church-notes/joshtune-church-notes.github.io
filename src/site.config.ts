@@ -6,10 +6,9 @@ const config: SiteConfig = {
   // The name of your site, used in the title and for SEO.
   title: 'Josh Tune',
   // The description of your site, used for SEO and RSS feed.
-  description:
-    '',
+  description: '',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Katy Kookaburra',
+  author: 'Josh Tune',
   // Keywords for SEO, used in the meta tags.
   tags: ['Josh Tune', 'Portfolio'],
   // Path to the image used for generating social media previews.
@@ -169,14 +168,13 @@ const config: SiteConfig = {
   // You'll need a GitHub repository with discussions enabled and the Giscus app installed.
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // If you don't want to use Giscus, set this to undefined.
-  giscus: undefined,
-  // giscus: {
-  //   repo: 'joshtune/joshtune-church-notes.github.io',
-  //   repoId: 'MDEwOlJlcG9zaXRvcnkzMTY1NzU0OTI=',
-  //   category: 'Announcements',
-  //   categoryId: 'DIC_kwDOEt6PBM4CumHs',
-  //   reactionsEnabled: true, // Enable reactions on post itself
-  // },
+  giscus: {
+    repo: '',
+    repoId: '',
+    category: '',
+    categoryId: '',
+    reactionsEnabled: false, // Enable reactions on post itself
+  },
   // These are characters available for the character chat feature.
   // To add your own character, add an image file to the top-level `/public` directory
   // Make sure to compress the image to a web-friendly size (<100kb)
