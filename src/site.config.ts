@@ -169,13 +169,14 @@ const config: SiteConfig = {
   // You'll need a GitHub repository with discussions enabled and the Giscus app installed.
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // If you don't want to use Giscus, set this to undefined.
-  giscus: {
-    repo: 'joshtune/joshtune-church-notes.github.io',
-    repoId: 'MDEwOlJlcG9zaXRvcnkzMTY1NzU0OTI=',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOEt6PBM4CumHs',
-    reactionsEnabled: true, // Enable reactions on post itself
-  },
+  giscus: undefined,
+  // giscus: {
+  //   repo: 'joshtune/joshtune-church-notes.github.io',
+  //   repoId: 'MDEwOlJlcG9zaXRvcnkzMTY1NzU0OTI=',
+  //   category: 'Announcements',
+  //   categoryId: 'DIC_kwDOEt6PBM4CumHs',
+  //   reactionsEnabled: true, // Enable reactions on post itself
+  // },
   // These are characters available for the character chat feature.
   // To add your own character, add an image file to the top-level `/public` directory
   // Make sure to compress the image to a web-friendly size (<100kb)
